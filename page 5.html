@@ -1,0 +1,121 @@
+<html>
+<head>
+<title>Michael's Individual Assignment</title>
+<script type="text/javascript" src="contact.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+h1
+{
+text-align: center;
+color: white;
+}
+body
+{
+background-image: url("image/phonebackground.jpg");
+background-repeat: no repeat;
+font-family: 'Poppins', sans-serif;
+}
+ul
+{
+list-style-type: none;
+overflow: hidden;
+background-color: #dddddd;
+}
+li
+{
+float:left;
+}
+li a {
+  display: block;
+  padding: 8px;
+}
+div
+{
+height:300px;
+width:300px;
+background:lightBlue;
+border:2px solid blue;
+border-radius:50px;
+margin:20px auto;
+text-align:center;
+}
+
+.contact-box{
+	background:white;
+	display:flex;
+}
+.contact-left{
+	flex-basis:60%;
+	padding:40px 60px;
+}
+.contact-right{
+	flex-basis:40%;
+	padding:40px;
+	background:lightBlue;
+	color:#fff;
+}
+h2{
+margin-bottom: 10px;
+color: black;
+}
+</style>
+</head>
+<body>
+<h1>Contact Me</h1>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="page 2.html">Hobbies & Interests</a></li>
+<li><a href="page 3.html">More Hobbies & Interests</a></li>
+<li><a href="page 4.html">Resume</a></li>
+</ul>
+
+<h3 style="color:orange;text-align:center">Please contact me using this information if you have any question.<h3>
+
+      
+   <div>  
+	  <h2>Contact Me<h2>
+	  
+	  <table>
+		<tr>
+			<td>Email</td>
+			<td>verami@sheridancollege.ca</td>
+		</tr>
+		<tr>
+			<td>Phone</td>
+			<td>+1 416-804-7965</td>
+		</tr>
+		<tr>
+			<td>Address</td>
+			<td>11 Ollie Avenue<br>
+			Brampton, Ontario<br>
+			L6X-0M8
+			</td>
+
+		</tr>
+	  </table>
+	</div>
+	<div>
+	<h2>Email Us<h2>
+	<FORM>
+<TABLE BORDER="1">
+  <TR>
+    <TD>Your name</TD>
+    <TD>
+      <INPUT TYPE="TEXT" NAME="name" SIZE="20">
+    </TD>
+  </TR>
+  <TR>
+    <TD>Your mail</TD>
+    <TD><INPUT TYPE="TEXT" NAME="email" SIZE="24" ONCLICK="sendEmail()"/></TD>
+  </TR>
+  <TR>
+    <TD>Your comment</TD>
+    <TD><textarea rows="2" name="comment" form="usrform">Enter text here...</textarea></TD>
+  </TR>
+</TABLE>
+<button onclick="myFunction()">Submit</button>
+</FORM>
+	</div>	
+	  
+</body>
+</html>

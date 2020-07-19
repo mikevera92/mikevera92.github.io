@@ -1,0 +1,41 @@
+h1
+{
+text-align: center;
+color: orange;
+}
+body
+{
+background-image: url("image/moviebackground.jpg");
+background-repeat: no repeat;
+}
+ul
+{
+list-style-type: none;
+overflow: hidden;
+background-color: #dddddd;
+}
+li
+{
+float:left;
+}
+li a {
+  display: block;
+  padding: 8px;
+}
+table, th, td {
+  border: 1px solid black; 
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td{
+	background-color:lime;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
